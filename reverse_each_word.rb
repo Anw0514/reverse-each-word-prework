@@ -1,3 +1,4 @@
 def reverse_each_word(string)
-  string.split(" ")
+  newar = string.split(" ")
+  puts newar
 end
