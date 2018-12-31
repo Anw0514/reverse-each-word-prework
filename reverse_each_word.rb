@@ -1,4 +1,4 @@
 def reverse_each_word(string)
   newar = string.split(" ")
-  puts newar
+  newar.collect { |word| word.reverse}
 end
